@@ -11,7 +11,7 @@
   }
   
   .ostad-link:hover {
-    color: #00cc00; /* Change text color to green on hover */
+    color: #e6fc25; /* Change text color to green on hover */
   }
   
   .ostad-container {
@@ -27,7 +27,7 @@
   .status-point {
     width: 12px; /* Adjust the size of the status point */
     height: 12px; /* Adjust the size of the status point */
-    background-color: #00cc00; /* Green color for the status point */
+    background-color: #33fc33; /* Green color for the status point */
     border-radius: 50%; /* Creates a circular shape for the status point */
     margin-left: 10px; /* Adjust the position of the status point */
   }
@@ -39,7 +39,7 @@
   .arrow-line {
     width: 20px; /* Adjust the length of the arrow line */
     height: 2px; /* Adjust the thickness of the arrow line */
-    background-color: #333; /* Arrow line color */
+    background-color: #9aec2e; /* Arrow line color */
     margin-left: 10px; /* Adjust the position of the arrow line */
     position: relative;
   }
@@ -50,7 +50,7 @@
     height: 0;
     border-top: 10px solid transparent; /* Adjust the size of the arrowhead */
     border-bottom: 10px solid transparent; /* Adjust the size of the arrowhead */
-    border-left: 10px solid #333; /* Arrowhead color, and it points left */
+    border-left: 10px solid #9aec2e; /* Arrowhead color, and it points left */
     top: 50%; /* Position the arrowhead vertically in the middle */
     transform: translateY(-50%); /* Center the arrowhead vertically */
     right: -10px; /* Adjust the position of the arrowhead to make it face leftward */

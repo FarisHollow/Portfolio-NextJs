@@ -70,7 +70,7 @@ const AboutSection = () => {
                 ))}
               </div>
             </div>
-            <div className="border border-amber-500 bg-stone-500 p-6 rounded">
+            <div className="border border-amber-500 bg-teal-600 p-6 rounded">
               <h2 className="text-2xl font-bold text-center mb-4 bg-amber-500">App Development</h2>
               <div className="flex flex-wrap">
                 {appDevelopmentSkills.map((skill, idx) => (
