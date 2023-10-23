@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import "./style.css";
+import { AiOutlineFacebook, AiOutlineGithub, AiOutlineLinkedin, AiOutlineTwitter, AiOutlineYoutube } from "react-icons/ai";
 const webDevelopmentSkills = [
   { skill: "Laravel", logo: "Laravel.png" },
   { skill: "Next.js", logo: "nextjs.png" },
@@ -39,20 +40,23 @@ interface SkillBoxProps {
 }
 
 const SkillBox: React.FC<SkillBoxProps> = ({ skill, isDarkMode, logo }) => (
-  <div className={`bg-black p-4 rounded m-2 text-white border-2 border-amber-500 ${isDarkMode ? 'text-white' : 'text-gray-700'}`}>
+  <div className={`jump-on-hover bg-black p-4 rounded m-2 text-white border-2 border-amber-500 ${isDarkMode ? 'text-white' : 'text-gray-700'}`}>
     <img src={logo} alt={skill} className="mb-2" style={{ maxWidth: "50px", maxHeight: "50px" }} />
     {skill}
   </div>
 );
 
+
 const AboutSection = () => {
-  // Replace this with your actual dark mode detection logic
   const isDarkMode = true;
 
   return (
     <section id="about">
+
+
     
       <div className="my-12 pb-12 md:pt-16 md:pb-48">
+      
         <h1 className="text-center font-bold text-4xl">
           About Me
           <hr className="w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded"></hr>
@@ -66,7 +70,8 @@ const AboutSection = () => {
               <h2 className="text-2xl font-bold text-center mb-4 bg-amber-500">Web Development</h2>
               <div className="flex flex-wrap">
                 {webDevelopmentSkills.map((skill, idx) => (
-                  <SkillBox key={idx} skill={skill.skill} logo={skill.logo} isDarkMode={isDarkMode} />
+                <SkillBox key={idx} skill={skill.skill} logo={skill.logo} isDarkMode={isDarkMode} />
+
                 ))}
               </div>
             </div>
@@ -134,7 +139,7 @@ const AboutSection = () => {
             </p>
           </div>
           <div className="text-center md:w-1/2 md:text-left">
-            <h1 className="text-2xl font-bold mb-6">Alternative Skills</h1>
+            <h1 className="text-2xl font-bold mb-0">Alternative Skills</h1>
             <div className="grid grid-cols-3 gap-4">
         {commonSkillsData.map((skillData, idx) => (
           <SkillBox
@@ -145,8 +150,39 @@ const AboutSection = () => {
           />
         ))}
       </div>
+      <section id="connect">
+  <div className="my-0 pb-12 md:pt-16 md:pb-48">
+    <h1 className="text-center font-bold text-4xl">
+      Connect with me
+      <hr className="w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded"></hr>
+    </h1>
+
+        <div className="flex flex-row items-center justify-center space-x-4 mb-4">
+      <a href="https://github.com/FarisHollow" rel="noreferrer" target="_blank">
+        <div className="icon-container">
+          <AiOutlineGithub className="icon" />
+        </div>
+      </a>
+      <a href="https://www.facebook.com/mir.faris.35" rel="noreferrer" target="_blank">
+        <div className="icon-container">
+          <AiOutlineFacebook className="icon" />
+        </div>
+      </a>
+      <a href="https://www.linkedin.com/in/mirfaris79/" rel="noreferrer" target="_blank">
+        <div className="icon-container">
+          <AiOutlineLinkedin className="icon" />
+        </div>
+      </a>
+     
+    </div>
+
+
+  </div>
+</section>
+
            
           </div>
+          
         </div>
       </div>
     </section>

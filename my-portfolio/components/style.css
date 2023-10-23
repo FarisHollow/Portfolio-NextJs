@@ -1,3 +1,7 @@
+
+
+
+
 .ostad-link {
     display: flex;
     align-items: center;
@@ -56,10 +60,34 @@
     right: -10px; /* Adjust the position of the arrowhead to make it face leftward */
   }
   .course-heading {
-    font-size: 24px; /* Adjust the font size */
-    font-weight: bold; /* Add bold font weight */
-    color: #333; /* Text color for the heading */
-    margin-top: 20px; /* Adjust the margin as needed */
-    text-transform: uppercase; /* Transform the text to uppercase */
+    font-size: 24px; 
+    font-weight: bold; 
+    color: rgb(245, 166, 19); 
+    margin-top: 20px; 
+    text-transform: uppercase;
+  }
+
+
+  .icon-container {
+    position: relative;
+    display: inline-block;
+    transition: transform 0.3s; 
   }
   
+  .icon {
+    font-size: 40px;
+    color: #10977a; 
+  }
+  
+  .icon-container:hover {
+    transform: translateY(-10px); 
+  }
+  .jump-on-hover {
+    transition: transform 0.3s;
+  }
+  
+  .jump-on-hover:hover {
+    transform: translateY(-10px); 
+  }
+
+
