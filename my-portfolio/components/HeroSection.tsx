@@ -22,7 +22,7 @@ const HeroSection = () => {
           <p className="text-lg mt-4 mb-6 md:text-2xl">
             A passionate <span className="font-semibold text-teal-600">Software Engineer</span> hailing from Dhaka, Bangladesh. My journey is driven by the relentless pursuit of growth and excellence within the realm of technology.
           </p>
-          <Link
+                    <Link
             to="projects"
             className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
             activeClass="active"
@@ -30,9 +30,11 @@ const HeroSection = () => {
             smooth={true}
             offset={-100}
             duration={500}
+            style={{ cursor: 'pointer' }}  // Add this line
           >
             Projects
           </Link>
+
           <a
             href="/Mir Faris.pdf" // 
             download="Mir Faris.pdf"
