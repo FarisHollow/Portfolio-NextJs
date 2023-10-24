@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import "./style.css";
-import { AiOutlineFacebook, AiOutlineGithub, AiOutlineLinkedin, AiOutlineTwitter, AiOutlineYoutube } from "react-icons/ai";
+import { AiOutlineFacebook, AiOutlineGithub, AiOutlineLinkedin, AiOutlineMail, AiOutlineTwitter, AiOutlineYoutube } from "react-icons/ai";
 const webDevelopmentSkills = [
   { skill: "Laravel", logo: "Laravel.png" },
   { skill: "Next.js", logo: "nextjs.png" },
@@ -59,7 +59,7 @@ const AboutSection = () => {
       
         <h1 className="text-center font-bold text-4xl">
           About Me
-          <hr className="w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded"></hr>
+          <hr className="w-6 h-1 mx-auto my-4 mb-16 bg-teal-500 border-0 rounded"></hr>
         </h1>
 
         {/* "My Stacks" section */}
@@ -143,41 +143,42 @@ const AboutSection = () => {
           />
         ))}
       </div>
-      <section id="connect">
-  <div className="my-0 pb-12 md:pt-16 md:pb-48">
-    <h1 className="text-center font-bold text-4xl">
-      Connect with me
-      <hr className="w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded"></hr>
-    </h1>
-
-        <div className="flex flex-row items-center justify-center space-x-4 mb-4">
-      <a href="https://github.com/FarisHollow" rel="noreferrer" target="_blank">
-        <div className="icon-container">
-          <AiOutlineGithub className="icon" />
-        </div>
-      </a>
-      <a href="https://www.facebook.com/mir.faris.35" rel="noreferrer" target="_blank">
-        <div className="icon-container">
-          <AiOutlineFacebook className="icon" />
-        </div>
-      </a>
-      <a href="https://www.linkedin.com/in/mirfaris79/" rel="noreferrer" target="_blank">
-        <div className="icon-container">
-          <AiOutlineLinkedin className="icon" />
-        </div>
-      </a>
-     
-    </div>
-
-
-  </div>
-</section>
-
+  
            
           </div>
           
         </div>
       </div>
+      <section id="connect">
+        <div className="my-0 pb-12 md:pt-0 md:pb-48">
+          <h1 className="text-center font-bold text-4xl">Connect with me</h1>
+          <hr className="w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded"></hr>
+
+          <div className="flex flex-row items-center justify-center space-x-4 mb-4">
+            <a href="https://github.com/FarisHollow" rel="noreferrer" target="_blank">
+              <div className="icon-container">
+                <AiOutlineGithub className="icon" />
+              </div>
+            </a>
+            <a href="https://www.facebook.com/mir.faris.35" rel="noreferrer" target="_blank">
+              <div className="icon-container">
+                <AiOutlineFacebook className="icon" />
+              </div>
+            </a>
+            <a href="https://www.linkedin.com/in/mirfaris79/" rel="noreferrer" target="_blank">
+              <div className="icon-container">
+                <AiOutlineLinkedin className="icon" />
+              </div>
+            </a>
+            <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCKCGlnjKnglglBsmpVZPvFKhnMKCJthpxctPHlfggSMqhDXPhTwmmvmkflVSnFDXVmGfGhg" rel="noreferrer" target="_blank">
+              <div className="icon-container">
+                <AiOutlineMail className="icon" />
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
     </section>
   );
 };

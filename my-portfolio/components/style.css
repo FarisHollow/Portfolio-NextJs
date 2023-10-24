@@ -91,3 +91,11 @@
   }
 
 
+  .neon-border {
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .neon-border:hover {
+    box-shadow: 0 0 2px 2px rgb(255, 16, 235), 0 0 20px 4px rgba(0, 255, 0, 1), 0 0 30px 6px rgba(0, 0, 255, 1);
+  }
+  
