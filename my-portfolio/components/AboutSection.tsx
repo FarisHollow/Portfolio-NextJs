@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import "./style.css";
-import { AiOutlineFacebook, AiOutlineGithub, AiOutlineLinkedin, AiOutlineMail, AiOutlineTwitter, AiOutlineYoutube } from "react-icons/ai";
+import { AiOutlineFacebook, AiOutlineGithub, AiOutlineLinkedin, AiOutlineMail, AiOutlineTwitter, AiOutlineWhatsApp, AiOutlineYoutube } from "react-icons/ai";
 const webDevelopmentSkills = [
   { skill: "Laravel", logo: "Laravel.png" },
   { skill: "Next.js", logo: "nextjs.png" },
@@ -173,6 +173,11 @@ const AboutSection = () => {
             <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCKCGlnjKnglglBsmpVZPvFKhnMKCJthpxctPHlfggSMqhDXPhTwmmvmkflVSnFDXVmGfGhg" rel="noreferrer" target="_blank">
               <div className="icon-container">
                 <AiOutlineMail className="icon" />
+              </div>
+            </a>
+            <a href="www.example.com" rel="noreferrer" target="_blank">
+              <div className="icon-container">
+                <AiOutlineWhatsApp className="icon" />
               </div>
             </a>
           </div>

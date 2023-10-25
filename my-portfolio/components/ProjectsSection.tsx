@@ -53,7 +53,7 @@ const appProjects = [
 
   {
     name: "Weather App",
-    description: "Weather forcasting application using Rest API",
+    description: "Weather forecasting application using Rest API",
     image: "/weather.png",
     github: "https://github.com/FarisHollow/Weather-App.git",
     link: "0",

@@ -42,7 +42,7 @@ export default function Navbar() {
                 <img
                   src="/MF.png"
                   alt="Mir Faris"
-                  className="h-16 " // Adjust the height as needed
+                  className="h-16 " 
                 />
               </div>
             </Link>

@@ -2,17 +2,16 @@
 import React from "react";
 import Image from "next/image";
 import { Link } from "react-scroll/modules";
-import { FiDownload, FiMail } from "react-icons/fi"; // Import the download and mail icons
+import { FiDownload, FiMail } from "react-icons/fi";
 import "./style.css";
 
 const HeroSection = () => {
-  // Replace 'YOUR_LINK_HERE' with your actual link
   const contactMeLink = "https://mail.google.com/mail/u/0/#inbox?compose=CllgCKCGlnjKnglglBsmpVZPvFKhnMKCJthpxctPHlfggSMqhDXPhTwmmvmkflVSnFDXVmGfGhg";
 
   return (
     <section id="home">
       <div className="flex flex-col text-center items-center justify-center animate-slideUpCubiBezier animation-delay-2 my-0 py-0 sm:py-0 md:py-40 md:flex-row md:space-x-24 md:text-left">
-        <div className="md:mt-2 md:w-1/2 rounded-amber-border">
+        <div className="md:mt-2 md:w-1/2 rounded-amber-border animate-slideUpEaseInOut">
           <Image
             src="/faris.jpg"
             alt=""
@@ -23,16 +22,16 @@ const HeroSection = () => {
         </div>
 
         <div className="md:mt-2 md:w-3/5">
-          <h1 className="text-4xl font-bold mt-6 md:mt-0 md:text-7xl">Hi, I&#39;m Faris!</h1>
+          <h1 className="text-4xl font-bold mt-6 md:mt-0 md:text-7xl">Hi, I'm Faris!</h1>
           <p className="text-lg mt-4 mb-6 md:text-2xl">
             A passionate <span className="font-semibold text-teal-600">Software Engineer</span> hailing from Dhaka, Bangladesh. My journey is driven by the relentless pursuit of growth and excellence within the realm of technology.
           </p>
           <div className="flex items-center">
             <a
-              href={contactMeLink} // Use the contactMeLink variable
+              href={contactMeLink}
               className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700 neon-border"
-              target="_blank" // Open the link in a new tab
-              rel="noreferrer" // Add noreferrer for security
+              target="_blank"
+              rel="noreferrer"
               style={{ cursor: 'pointer' }}
             >
               <div className="flex items-center">

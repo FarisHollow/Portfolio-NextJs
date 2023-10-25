@@ -1,9 +1,10 @@
 import React from "react"
 import {
   AiOutlineGithub,
-  AiOutlineTwitter,
   AiOutlineLinkedin,
-  AiOutlineYoutube,
+  AiOutlineFacebook,
+  AiOutlineMail,
+  AiOutlineWhatsApp,
 } from "react-icons/ai"
 
 const Footer = () => {
@@ -14,45 +15,33 @@ const Footer = () => {
         <div className="flex flex-row items-center justify-center space-x-1 text-neutral-500 dark:text-neutral-100">
           © 2023 Mir Faris<a href="/" className="hover:underline"></a>
         </div>
-        <div className="flex flex-row items-center justify-center space-x-2 mb-1">
-          <a href="https://github.com/hqasmei" rel="noreferrer" target="_blank">
-            <AiOutlineGithub
-              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
-              size={30}
-            />
-          </a>
-          <a
-            href="https://twitter.com/hqasmei"
-            rel="noreferrer"
-            target="_blank"
-          >
-            <AiOutlineTwitter
-              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
-              size={30}
-            />
-          </a>
-
-          <a
-            href="https://www.linkedin.com/in/hosnaqasmei/"
-            rel="noreferrer"
-            target="_blank"
-          >
-            <AiOutlineLinkedin
-              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
-              size={30}
-            />
-          </a>
-          <a
-            href="https://www.youtube.com/channel/UCQBMkSDgbxDb8usMeXmOZyA"
-            rel="noreferrer"
-            target="_blank"
-          >
-            <AiOutlineYoutube
-              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
-              size={30}
-            />
-          </a>
-        </div>
+        <div className="flex flex-row items-center justify-center space-x-4 mb-4">
+            <a href="https://github.com/FarisHollow" rel="noreferrer" target="_blank">
+              <div className="icon-container">
+                <AiOutlineGithub className="icon" />
+              </div>
+            </a>
+            <a href="https://www.facebook.com/mir.faris.35" rel="noreferrer" target="_blank">
+              <div className="icon-container">
+                <AiOutlineFacebook className="icon" />
+              </div>
+            </a>
+            <a href="https://www.linkedin.com/in/mirfaris79/" rel="noreferrer" target="_blank">
+              <div className="icon-container">
+                <AiOutlineLinkedin className="icon" />
+              </div>
+            </a>
+            <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCKCGlnjKnglglBsmpVZPvFKhnMKCJthpxctPHlfggSMqhDXPhTwmmvmkflVSnFDXVmGfGhg" rel="noreferrer" target="_blank">
+              <div className="icon-container">
+                <AiOutlineMail className="icon" />
+              </div>
+            </a>
+            <a href="www.example.com" rel="noreferrer" target="_blank">
+              <div className="icon-container">
+                <AiOutlineWhatsApp className="icon" />
+              </div>
+            </a>
+          </div>
       </div>
     </footer>
   )
