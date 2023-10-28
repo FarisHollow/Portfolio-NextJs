@@ -1,8 +1,7 @@
 {
   "name": "temp",
-  "version": "13.5",
+  "version": "0.1.0",
   "private": true,
-  "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -12,20 +11,18 @@
   "dependencies": {
     "@next/font": "13.1.6",
     "@types/react-dom": "18.0.10",
-    "chart.js": "^4.4.0",
     "eslint": "8.32.0",
     "eslint-config-next": "13.1.6",
-    "next": "14.0.0",
+    "next": "13.1.6",
     "next-themes": "^0.2.1",
     "react": "18.2.0",
-    "react-chartjs-2": "^5.2.0",
     "react-dom": "18.2.0",
-    "react-icons": "^4.11.0",
-    "react-scroll": "^1.9.0"
+    "react-icons": "^4.7.1",
+    "react-scroll": "^1.8.9"
   },
   "devDependencies": {
-    "@types/node": "20.8.7",
-    "@types/react": "18.2.31",
+    "@types/node": "20.8.9",
+    "@types/react": "18.2.33",
     "@types/react-scroll": "^1.8.6",
     "autoprefixer": "^10.4.13",
     "postcss": "^8.4.21",
