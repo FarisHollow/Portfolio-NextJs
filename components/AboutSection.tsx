@@ -19,8 +19,8 @@ const webDevelopmentSkills = [
 const appDevelopmentSkills = [
   { skill: "Flutter", logo: "flutter.png" },
   { skill: "Rest API", logo: "rest.png" },
+  { skill: "Dart", logo: "Dart.png" },
   { skill: "Firebase", logo: "firebase.png" },
-  { skill: "Dart", logo: "dart.png" },
 ];
 
 const commonSkillsData = [
