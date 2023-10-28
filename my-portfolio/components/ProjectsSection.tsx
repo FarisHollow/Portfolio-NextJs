@@ -118,8 +118,8 @@ const ProjectsSection = () => {
                     <Image
                       src={project.image}
                       alt=""
-                      width={200} // Adjust the width as needed
-                      height={300} // Adjust the height as needed
+                      width={200} 
+                      height={300} 
                       className="rounded-xl shadow-xl hover:opacity-70"
                     />
                   )}
