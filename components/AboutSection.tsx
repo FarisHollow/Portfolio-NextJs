@@ -123,22 +123,23 @@ const AboutSection = () => {
 
         <div className="flex flex-col space-y-10 items-stretch justify-center align-top md:space-x-10 md:space-y-0 md:p-4 md:flex-row md:text-left">
           <div className="md:w-1/2">
-            <h1 className="text-center text-2xl font-bold mb-6 md:text-left">Get to know me!</h1>
-                            <p>
-                  Hey, I'm Mir Faris, a highly motivated Software Engineer from Dhaka, Bangladesh.
-                </p>
-                <br />
-                <p>
-                  I'm a Computer Science & Engineering student at American International University of Bangladesh (AIUB).
-                </p>
-                <br />
-                <p>
-                  I'm a tech enthusiast, sports lover and travel enthusiast. I thrive on new experiences and endless learning.
-                </p>
-                <br />
-                <p>
-                  I'm passionate about tech and I'm always eager to push the boundaries of what's possible. Excited for what the future holds! 😄
-                </p>
+          <h1 className="text-center text-2xl font-bold mb-6 md:text-left">Get to know me!</h1>
+<p>
+  Hey, I&rsquo;m Mir Faris, a highly motivated Software Engineer from Dhaka, Bangladesh.
+</p>
+<br />
+<p>
+  I&rsquo;m a Computer Science & Engineering student at American International University of Bangladesh (AIUB).
+</p>
+<br />
+<p>
+  I&rsquo;m a tech enthusiast, sports lover and travel enthusiast. I thrive on new experiences and endless learning.
+</p>
+<br />
+<p>
+  I&rsquo;m passionate about tech and I&rsquo;m always eager to push the boundaries of what&rsquo;s possible. Excited for what the future holds! 😄
+</p>
+
 
           </div>
           <div className="text-center md:w-1/2 md:text-left">
