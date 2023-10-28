@@ -41,7 +41,7 @@ interface SkillBoxProps {
 
 const SkillBox: React.FC<SkillBoxProps> = ({ skill, isDarkMode, logo }) => (
   <div className={`jump-on-hover bg-black p-4 rounded m-2 text-white border-2 border-amber-500 ${isDarkMode ? 'text-white' : 'text-gray-700'}`}>
-    <img src={logo} alt={skill} className="mb-2" style={{ maxWidth: "50px", maxHeight: "50px" }} />
+<Image src="/Laravel.png" alt="Laravel" width={50} height={50} className="mb-2" />
     {skill}
   </div>
 );
@@ -127,8 +127,9 @@ const AboutSection = () => {
                 </p>
                 <br />
                 <p>
-                  I'm passionate about tech and I'm always eager to push the boundaries of what's possible. Excited for what the future holds! 😄
-                </p>
+  I'm passionate about tech and I'm always eager to push the boundaries of what's possible. Excited for what the future holds! &apos;😄&apos;
+</p>
+
 
           </div>
           <div className="text-center md:w-1/2 md:text-left">
