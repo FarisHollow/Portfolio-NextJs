@@ -22,10 +22,11 @@ const HeroSection = () => {
         </div>
 
         <div className="md:mt-2 md:w-3/5">
-          <h1 className="text-4xl font-bold mt-6 md:mt-0 md:text-7xl">Hi, I'm Faris!</h1>
-          <p className="text-lg mt-4 mb-6 md:text-2xl">
-            A passionate <span className="font-semibold text-teal-600">Software Engineer</span> hailing from Dhaka, Bangladesh. My journey is driven by the relentless pursuit of growth and excellence within the realm of technology.
-          </p>
+        <h1 className="text-4xl font-bold mt-6 md:mt-0 md:text-7xl">Hi, I&apos;m Faris!</h1>
+<p className="text-lg mt-4 mb-6 md:text-2xl">
+  A passionate <span className="font-semibold text-teal-600">Software Engineer</span> hailing from Dhaka, Bangladesh. My journey is driven by the relentless pursuit of growth and excellence within the realm of technology.
+</p>
+
           <div className="flex items-center">
             <a
               href={contactMeLink}

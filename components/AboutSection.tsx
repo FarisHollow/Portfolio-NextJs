@@ -1,4 +1,3 @@
-import React from "react";
 import Image from "next/image";
 import "./style.css";
 import { AiOutlineFacebook, AiOutlineGithub, AiOutlineLinkedin, AiOutlineMail, AiOutlineTwitter, AiOutlineWhatsApp, AiOutlineYoutube } from "react-icons/ai";
@@ -41,8 +40,12 @@ interface SkillBoxProps {
 
 const SkillBox: React.FC<SkillBoxProps> = ({ skill, isDarkMode, logo }) => (
   <div className={`jump-on-hover bg-black p-4 rounded m-2 text-white border-2 border-amber-500 ${isDarkMode ? 'text-white' : 'text-gray-700'}`}>
-<Image src="/Laravel.png" alt="Laravel" width={50} height={50} className="mb-2" />
-    {skill}
+<Image
+      src={`/${logo}`} // Assuming your images are in the public directory
+      alt={skill}
+      width={50}
+      height={50}
+    />    {skill}
   </div>
 );
 
@@ -86,7 +89,14 @@ const AboutSection = () => {
                 <a href="https://ostad.app/" target="_blank" rel="noopener noreferrer" className="ostad-link">
                   <div className="ostad-container">
                     <div className="status-point"></div>
-                    <img src="ostad.png" alt="Ostad" className="ostad-logo" />
+                    <Image
+  src="/ostad.png"
+  alt="Ostad"
+  width={100}
+  height={50} 
+  className="max-w-100px mr-20" 
+/>
+                    
                     <div className="arrow-line">
                       <div className="arrowhead"></div>
                     </div>
@@ -127,9 +137,8 @@ const AboutSection = () => {
                 </p>
                 <br />
                 <p>
-  I'm passionate about tech and I'm always eager to push the boundaries of what's possible. Excited for what the future holds! &apos;😄&apos;
-</p>
-
+                  I'm passionate about tech and I'm always eager to push the boundaries of what's possible. Excited for what the future holds! 😄
+                </p>
 
           </div>
           <div className="text-center md:w-1/2 md:text-left">

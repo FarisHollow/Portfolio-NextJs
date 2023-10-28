@@ -6,6 +6,8 @@ import { usePathname } from "next/navigation"
 import { useTheme } from "next-themes"
 import { RiMoonFill, RiSunLine } from "react-icons/ri"
 import { IoMdMenu, IoMdClose } from "react-icons/io"
+import Image from "next/image";
+
 
 interface NavItem {
   label: string
@@ -39,10 +41,13 @@ export default function Navbar() {
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
             <Link to="home">
               <div className="container flex items-center space-x-2">
-                <img
+                <Image
                   src="/MF.png"
                   alt="Mir Faris"
-                  className="h-16 " 
+                  
+                  width={163} 
+                  height={24}
+
                 />
               </div>
             </Link>
