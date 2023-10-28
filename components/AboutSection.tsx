@@ -1,5 +1,6 @@
 import Image from "next/image";
 import "./style.css";
+
 import { AiOutlineFacebook, AiOutlineGithub, AiOutlineLinkedin, AiOutlineMail, AiOutlineTwitter, AiOutlineWhatsApp, AiOutlineYoutube } from "react-icons/ai";
 const webDevelopmentSkills = [
   { skill: "Laravel", logo: "Laravel.png" },
@@ -85,17 +86,16 @@ const AboutSection = () => {
                   <SkillBox key={idx} skill={skill.skill} logo={skill.logo} isDarkMode={isDarkMode} />
                 ))}
 
-                <h4 className="course-heading">Course</h4>
                 <a href="https://ostad.app/" target="_blank" rel="noopener noreferrer" className="ostad-link">
                   <div className="ostad-container">
                     <div className="status-point"></div>
                     <Image
-  src="/ostad.png"
-  alt="Ostad"
-  width={100}
-  height={50} 
-  className="max-w-100px mr-20" 
-/>
+                          src="/ostad.png"
+                          alt="Ostad"
+                          width={100}
+                          height={50} 
+                          className="max-w-100px mr-20" 
+                        />
                     
                     <div className="arrow-line">
                       <div className="arrowhead"></div>
