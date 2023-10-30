@@ -86,7 +86,7 @@ const AboutSection = () => {
                   <SkillBox key={idx} skill={skill.skill} logo={skill.logo} isDarkMode={isDarkMode} />
                 ))}
 
-                <a href="https://ostad.app/" target="_blank"  className="ostad-link">
+                <a href="https://ostad.app/" target="_blank" rel=" noreferrer" className="ostad-link">
                   <div className="ostad-container">
                     <div className="status-point"></div>
                     <Image
