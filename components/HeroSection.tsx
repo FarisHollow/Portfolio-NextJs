@@ -1,12 +1,12 @@
 "use client" // this is a client component
 import React from "react";
 import Image from "next/image";
-import { Link } from "react-scroll/modules";
-import { FiDownload, FiMail } from "react-icons/fi";
-import "./style.css";
+import { FiDownload } from "react-icons/fi";
+import { AiOutlineWhatsApp } from "react-icons/ai";
 
 const HeroSection = () => {
-  const contactMeLink = "https://mail.google.com/mail/u/0/#inbox?compose=CllgCKCGlnjKnglglBsmpVZPvFKhnMKCJthpxctPHlfggSMqhDXPhTwmmvmkflVSnFDXVmGfGhg";
+  const contactMeLink = "https://wa.me/+8801330804697";
+  const gmailAddress = "mirfaris79@gmail.com";
 
   return (
     <section id="home">
@@ -22,10 +22,10 @@ const HeroSection = () => {
         </div>
 
         <div className="md:mt-2 md:w-3/5">
-        <h1 className="text-4xl font-bold mt-6 md:mt-0 md:text-7xl">Hi, I&apos;m Faris!</h1>
-<p className="text-lg mt-4 mb-6 md:text-2xl">
-  A passionate <span className="font-semibold text-teal-600">Software Engineer</span> hailing from Dhaka, Bangladesh. My journey is driven by the relentless pursuit of growth and excellence within the realm of technology.
-</p>
+          <h1 className="text-4xl font-bold mt-6 md:mt-0 md:text-7xl">Hi, I&apos;m Faris!</h1>
+          <p className="text-lg mt-4 mb-6 md:text-2xl">
+            A passionate <span className="font-semibold text-teal-600">Software Engineer</span> hailing from Dhaka, Bangladesh. My journey is driven by the relentless pursuit of growth and excellence within the realm of technology.
+          </p>
 
           <div className="flex items-center">
             <a
@@ -36,7 +36,7 @@ const HeroSection = () => {
               style={{ cursor: 'pointer' }}
             >
               <div className="flex items-center">
-                Contact Me <FiMail size={20} className="ml-2" />
+                Contact Me <AiOutlineWhatsApp size={20} className="ml-2" />
               </div>
             </a>
             <a
@@ -45,6 +45,15 @@ const HeroSection = () => {
               className="text-teal-600 font-semibold px-6 py-3 border border-amber-500 rounded shadow hover-bg-teal-700 ml-3 flex items-center neon-border"
             >
               <FiDownload size={20} className="mr-2" /> Download CV
+            </a>
+          </div>
+
+          <div className="mt-4">
+            <a
+              href={`mailto:${gmailAddress}`}
+              className="text-amber-600 font-semibold hover:underline"
+            >
+              Mail me: {gmailAddress}
             </a>
           </div>
         </div>

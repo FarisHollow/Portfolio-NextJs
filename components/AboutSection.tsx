@@ -1,7 +1,7 @@
 import Image from "next/image";
 import "./style.css";
 
-import { AiOutlineFacebook, AiOutlineGithub, AiOutlineLinkedin, AiOutlineMail, AiOutlineTwitter, AiOutlineWhatsApp, AiOutlineYoutube } from "react-icons/ai";
+import { AiOutlineFacebook, AiOutlineGithub, AiOutlineInstagram, AiOutlineLinkedin, AiOutlineMail, AiOutlineTwitter, AiOutlineWhatsApp, AiOutlineYoutube } from "react-icons/ai";
 const webDevelopmentSkills = [
   { skill: "Laravel", logo: "Laravel.png" },
   { skill: "Next.js", logo: "nextjs.png" },
@@ -181,16 +181,17 @@ const AboutSection = () => {
                 <AiOutlineLinkedin className="icon" />
               </div>
             </a>
-            <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCKCGlnjKnglglBsmpVZPvFKhnMKCJthpxctPHlfggSMqhDXPhTwmmvmkflVSnFDXVmGfGhg" rel="noreferrer" target="_blank">
+            <a href="https://www.instagram.com/faris_holloww/" rel="noreferrer" target="_blank">
               <div className="icon-container">
-                <AiOutlineMail className="icon" />
+                <AiOutlineInstagram className="icon" />
               </div>
             </a>
-            <a href="www.example.com" rel="noreferrer" target="_blank">
+            <a href="https://wa.me/+8801330804697" target="_blank">
               <div className="icon-container">
                 <AiOutlineWhatsApp className="icon" />
               </div>
             </a>
+
           </div>
         </div>
       </section>
