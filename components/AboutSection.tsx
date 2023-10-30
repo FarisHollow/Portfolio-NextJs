@@ -86,7 +86,7 @@ const AboutSection = () => {
                   <SkillBox key={idx} skill={skill.skill} logo={skill.logo} isDarkMode={isDarkMode} />
                 ))}
 
-                <a href="https://ostad.app/" target="_blank" rel=" noreferrer" className="ostad-link">
+                <a href="https://ostad.app/"  className="ostad-link">
                   <div className="ostad-container">
                     <div className="status-point"></div>
                     <Image
@@ -166,22 +166,22 @@ const AboutSection = () => {
           <hr className="w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded"></hr>
 
           <div className="flex flex-row items-center justify-center space-x-4 mb-4">
-            <a href="https://github.com/FarisHollow" rel="noreferrer" target="_blank">
+            <a href="https://github.com/FarisHollow" >
               <div className="icon-container">
                 <AiOutlineGithub className="icon" />
               </div>
             </a>
-            <a href="https://www.facebook.com/mir.faris.35" rel="noreferrer" target="_blank">
+            <a href="https://www.facebook.com/mir.faris.35" >
               <div className="icon-container">
                 <AiOutlineFacebook className="icon" />
               </div>
             </a>
-            <a href="https://www.linkedin.com/in/mirfaris79/" rel="noreferrer" target="_blank">
+            <a href="https://www.linkedin.com/in/mirfaris79/" >
               <div className="icon-container">
                 <AiOutlineLinkedin className="icon" />
               </div>
             </a>
-            <a href="https://www.instagram.com/faris_holloww/" rel="noreferrer" target="_blank">
+            <a href="https://www.instagram.com/faris_holloww/" >
               <div className="icon-container">
                 <AiOutlineInstagram className="icon" />
               </div>
