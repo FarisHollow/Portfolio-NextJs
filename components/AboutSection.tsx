@@ -186,7 +186,7 @@ const AboutSection = () => {
                 <AiOutlineInstagram className="icon" />
               </div>
             </a>
-            <a href="https://wa.me/+8801330804697" target="_blank">
+            <a href="https://wa.me/+8801330804697" >
   <div className="icon-container">
     <AiOutlineWhatsApp className="icon" />
   </div>
