@@ -86,7 +86,7 @@ const AboutSection = () => {
                   <SkillBox key={idx} skill={skill.skill} logo={skill.logo} isDarkMode={isDarkMode} />
                 ))}
 
-                <a href="https://ostad.app/" target="_blank" rel="noopener noreferrer" className="ostad-link">
+                <a href="https://ostad.app/" target="_blank"  className="ostad-link">
                   <div className="ostad-container">
                     <div className="status-point"></div>
                     <Image
@@ -187,10 +187,10 @@ const AboutSection = () => {
               </div>
             </a>
             <a href="https://wa.me/+8801330804697" target="_blank">
-              <div className="icon-container">
-                <AiOutlineWhatsApp className="icon" />
-              </div>
-            </a>
+  <div className="icon-container">
+    <AiOutlineWhatsApp className="icon" />
+  </div>
+</a>
 
           </div>
         </div>
