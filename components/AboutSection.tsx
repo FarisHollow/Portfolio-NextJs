@@ -101,7 +101,7 @@ const AboutSection = () => {
                       <div className="arrowhead"></div>
                     </div>
                   </div>
-                  <p className="ostad-text">My course is on Going</p>
+                  <p className="ostad-text">Course Completed</p>
                 </a>
 
 

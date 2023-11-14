@@ -40,8 +40,8 @@ const HeroSection = () => {
               </div>
             </a>
             <a
-              href="/Mir Faris.pdf"
-              download="Mir Faris.pdf"
+              href="/Cv of Mir Faris.pdf"
+              download="Cv of Mir Faris.pdf"
               className="text-teal-600 font-semibold px-6 py-3 border border-amber-500 rounded shadow hover-bg-teal-700 ml-3 flex items-center neon-border"
             >
               <FiDownload size={20} className="mr-2" /> Download CV
