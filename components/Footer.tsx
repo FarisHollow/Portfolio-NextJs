@@ -18,9 +18,7 @@ const Footer = () => {
       <div className="container mx-auto flex flex-col items-center justify-center md:flex-row md:justify-between">
         <div className="text-center md:text-left mb-6">
           <span className="text-2xl font-semibold">© 2023 Mir Faris</span>
-          <a href="/" className="block text-sm text-gray-400 hover:underline">
-            Home
-          </a>
+          
         </div>
 
         <div className="text-center md:text-left">
