@@ -13,7 +13,7 @@ const HeroSection = () => {
       <div className="flex flex-col text-center items-center justify-center animate-slideUpCubiBezier animation-delay-2 my-0 py-0 sm:py-0 md:py-40 md:flex-row md:space-x-24 md:text-left">
         <div className="md:mt-2 md:w-1/2 rounded-amber-border animate-slideUpEaseInOut">
           <Image
-            src="/faris.jpg"
+            src="/faris1.jpg"
             alt=""
             width={1025}
             height={1025}
