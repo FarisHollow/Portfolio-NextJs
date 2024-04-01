@@ -10,13 +10,13 @@ const HeroSection = () => {
 
   return (
     <section id="home">
-      <div className="flex flex-col text-center items-center justify-center animate-slideUpCubiBezier animation-delay-2 my-0 py-0 sm:py-0 md:py-40 md:flex-row md:space-x-24 md:text-left">
+      <div className="flex flex-col text-center items-center justify-center animate-slideUpCubiBezier animation-delay-2 my-0 py-0 sm:py-110 md:py-40 md:flex-row md:space-x-24 md:text-left">
         <div className="md:mt-2 md:w-1/2 rounded-amber-border animate-slideUpEaseInOut">
           <Image
             src="/faris1.jpg"
             alt=""
-            width={250}
-            height={250}
+            width={1050}
+            height={1050}
             className="rounded-full shadow-2xl border-4 border-blue-500"
           />
         </div>
