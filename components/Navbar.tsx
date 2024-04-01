@@ -40,7 +40,7 @@ export default function Navbar() {
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
             <Link to="home">
               <div className="container flex items-center space-x-2">
-                <div className="mt-4 md:mt-0">
+                <div className="logo-container">
                   <Image
                     src="/MF.png"
                     alt="Mir Faris"
@@ -106,6 +106,13 @@ export default function Navbar() {
           </div>
         </div>
       </div>
+      <style jsx>{`
+        @media (max-width: 768px) {
+          .logo-container {
+            margin-top: 20px;
+          }
+        }
+      `}</style>
     </header>
   );
 }
