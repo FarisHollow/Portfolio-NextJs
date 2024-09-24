@@ -129,15 +129,15 @@ const AboutSection = () => {
 </p>
 <br />
 <p>
-  I&rsquo;ve completed BSc in Computer Science & Engineering from at American International University of Bangladesh (AIUB).
+  I&rsquo;ve completed BSc in Computer Science & Engineering from American International University of Bangladesh (AIUB).
 </p>
 <br />
 <p>
-  I&rsquo;m a tech enthusiast, football lover and travel enthusiast. I thrive on new experiences and endless learning.
+  I&rsquo;m a tech and travel enthusiast and also a football lover. I thrive on new experiences and endless learning.
 </p>
 <br />
 <p>
-  I&rsquo;m passionate about tech and I&rsquo;m always eager to push the boundaries of what&rsquo;s possible. Excited for what the future holds! 😄
+  I&rsquo;m passionate about tech and I&rsquo;m always eager to push the boundaries of limitations. Excited for what the future holds! 😄
 </p>
 
 
