@@ -3,10 +3,12 @@ import "./style.css";
 
 import { AiOutlineFacebook, AiOutlineGithub, AiOutlineInstagram, AiOutlineLinkedin, AiOutlineMail, AiOutlineTwitter, AiOutlineWhatsApp, AiOutlineYoutube } from "react-icons/ai";
 const webDevelopmentSkills = [
+  { skill: "FastAPI", logo: "Fastapi.png" },
   { skill: "Laravel", logo: "Laravel.png" },
   { skill: "Next.js", logo: "nextjs.png" },
   { skill: "Nest.js", logo: "nestjs.png" },
   { skill: "React", logo: "react.png" },
+  { skill: "Python", logo: "python.png" },
   { skill: "PHP", logo: "php.png" },
   { skill: "JavaScript", logo: "javascript.png" },
   { skill: "Tailwind CSS", logo: "tailwind.png" },
@@ -28,7 +30,6 @@ const commonSkillsData = [
   { skill: "Git", logo: "git.png" },
   { skill: "GitHub", logo: "github.png" },
   { skill: "C#", logo: "cs.png" },
-  { skill: "Python", logo: "python.png" },
   { skill: "Java", logo: "java.png" },
   { skill: "C++", logo: "cpp.png" },
 ];
