@@ -15,6 +15,7 @@ const webDevelopmentSkills = [
   { skill: "PostgreSQL", logo: "postgresql.png" },
   { skill: "TypeScript", logo: "typescript.png" },
     { skill: "MySQL", logo: "mysql.png" },
+    { skill: "MongoDB", logo: "mongo.png" },
 
   { skill: "Bootstrap", logo: "bootstrap.png" },
 ];
@@ -29,7 +30,7 @@ const appDevelopmentSkills = [
 const commonSkillsData = [
   { skill: "Git", logo: "git.png" },
   { skill: "GitHub", logo: "github.png" },
-  { skill: "C#", logo: "cs.png" },
+  { skill: "Docker", logo: "docker.png" },
   { skill: "Java", logo: "java.png" },
   { skill: "C++", logo: "cpp.png" },
 ];

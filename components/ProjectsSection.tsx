@@ -39,6 +39,15 @@ const webProjects = [
     github: "https://github.com/FarisHollow/Ancient-Egypt",
     link: '0',
   },
+
+  {
+    name: "Chatbot/PDF Data Parser",
+    description:
+      "A context based chatbot, context parsed using docling parser from pdf, used OpenAI, Llamaindex & Qdrant vector database for chatbot",
+    image: "/chatbot.png",
+    github: "https://github.com/FarisHollow/Docling-Parser.git",
+    link: '0',
+  },
   // Add more web projects here
 ];
 
